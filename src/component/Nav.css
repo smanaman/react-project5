@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .border-all{
+    border: 1px solid black;
+    height: 80px;
+  }
+  .all-border-2{
+    border: 1px solid black;
+    height: 50px;
+  }
+  nav{
+    height: 80px;
+  }
+  .logo{
+   display: flex;
+   justify-content: start;
+   align-items: center; 
+  }
+  .logo img{
+   width: 120px;
+   height: 38px;
+   /* border: 1px solid black; */
+   }
+  
+  .input{
+  width: 420px;
+  height: 45px;
+  border: 1px solid #8DC8B1;
+  overflow: hidden;
+  }
+  .selection{
+    width:140px;
+    height: 45px;
+    border: 1px solid #8DC8B1;
+    overflow: hidden;
+  }
+  .button{
+    width: 50px;
+    height: 45px;
+    border: 1px solid #8DC8B1;
+    overflow: hidden;
+  }
+  .button button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #64B496;
+    color: white;
+  }
+  input{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    border: 1px solid #8DC8B1;
+    border: none;
+  }
+  input:focus{
+    outline: none;
+  }
+  select{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border: none;
+  }
+  select:focus{
+    outline: none;
+  }
+  .nav-icon{
+    width: 25px;
+    height: 25px;
+    /* border: 1px solid black; */
+    font-size: 18px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  .nav-text{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .hamburger{
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .manu{
+   width: 130px;
+   height: 100%;
+   border: 1px solid;
+   font-family: "Poppins, sans-serif";
+   font-size: 17px;
+   font-weight: 500;
+  }
+  .manu i{
+    font-size: 13px;
+  }
+  .phone{
+    font-size: 16px;
+    font-weight: 600;
+  }
