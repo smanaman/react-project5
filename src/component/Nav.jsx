@@ -5,7 +5,7 @@ function Nav() {
 
   return (
     <>
-      <div className="container border-all">
+      <div className="container ">
         <nav>
           <div className="row">
 
@@ -28,7 +28,6 @@ function Nav() {
             </div>
             <div className="col-3 border-all d-flex m-0 p-0">
 
-{/* <div className="col-3"></div> */}
               <div className="col-4 border-all d-flex justify-content-center align-items-center justify-content-evenly">
                 <div className="nav-icon"><i class="fa-regular fa-user"></i></div>
                 <div className="nav-text" style={{ marginLeft: "-5px" }}>Account</div>
@@ -49,22 +48,27 @@ function Nav() {
           </div>
         </nav>
         <div className="row all-border-2">
-            <div className="col-2 all-border-2 d-flex align-items-center">
-                <div className="hamburger"><i class="fa-solid fa-bars"></i></div>
-            </div>
-            <div className="col-7 all-border-2  d-flex m-0 p-0">
-                <div className='manu d-flex justify-content-center align-items-center'>Home</div>
-                <div className='manu d-flex justify-content-center align-items-center'>Category<i class="fa-solid fa-angle-down"></i></div>
-                <div className='manu d-flex justify-content-center align-items-center'>Products<i class="fa-solid fa-angle-down"></i></div>
-                <div className='manu d-flex justify-content-center align-items-center'>Pages<i class="fa-solid fa-angle-down"></i></div>
-                <div className='manu d-flex justify-content-center align-items-center'>Blog<i class="fa-solid fa-angle-down"></i></div>
-                <div className='manu d-flex justify-content-center align-items-center'>Elements<i class="fa-solid fa-angle-down"></i></div>
+          <div className="col-2 all-border-2 d-flex align-items-center">
+            <div className="hamburger"><i class="fa-solid fa-bars"></i></div>
+          </div>
+          <div className="col-7 all-border-2  d-flex m-0 p-0">
+            <div className='manu d-flex justify-content-center align-items-center'>Home</div>
+            <div className='manu d-flex justify-content-center align-items-center'>Category<i class="fa-solid fa-angle-down"></i></div>
+            <div className='manu d-flex justify-content-center align-items-center'>Products<i class="fa-solid fa-angle-down"></i></div>
+            <div className='manu d-flex justify-content-center align-items-center'>Pages<i class="fa-solid fa-angle-down"></i></div>
+            <div className='manu d-flex justify-content-center align-items-center'>Blog<i class="fa-solid fa-angle-down"></i></div>
+            <div className='manu d-flex justify-content-center align-items-center'>Elements<i class="fa-solid fa-angle-down"></i></div>
 
-            </div>
-            <div className="col-3 all-border-2 d-flex justify-content-end align-items-center phone">
+          </div>
+          <div className="col-3 all-border-2 d-flex justify-content-end align-items-center phone">
             <i class="fa-solid fa-phone "></i>+123 ( 456 ) ( 7890 )</div>
         </div>
+        
       </div>
+
+
+
+
     </>
   )
 }

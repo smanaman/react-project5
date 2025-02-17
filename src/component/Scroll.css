@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+height: 3000px;
+}
+
+.scroller {
+    height: 620px;
+}
+
+.back {
+    width: 100%;
+    height: 600px;
+    background-image: url(/public/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.back-div {
+    width: 800px;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroller-text {
+    width: 600px;
+    height: 60%;
+    /* border: 1px solid black; */
+}
+
+.scroller-text-h5 {
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.scroller-text-h5 h5 {
+    width: 60px;
+    height: 100%;
+    border-bottom: 3px solid #64B496;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-weight: 700;
+    color: #64B496;
+    font-size: 24px;
+
+}
+
+.scroller-text-h5 span {
+    width: 260px;
+    height: 100%;
+    font-size: 24px;
+    font-family: "Poppins, sans-serif";
+    font-weight: 800;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: end;
+    margin-left: 15px;
+    letter-spacing: 0.48px;
+
+}
+
+.scroller-text-h1 {
+    font-size: 50px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 7px;
+    color: #000;
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
+
+.scroller-text-p {
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    /* font-weight:800; */
+    color: #64B496;
+    /* line-height: 60px; */
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+
+}
+
+.scroller-text-button {
+    width: 115px;
+    height: 45px;
+    border-radius: 6px;
+    background-color: #64B496;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+}
