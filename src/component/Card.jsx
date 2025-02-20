@@ -3,23 +3,23 @@ import { useState } from "react";
 
 function Card() {
     const initialData = [
-        { img: "/5.jpg", c: "veg" },
-        { img: "/6.jpg", c: "veg" }
+        { img: "/5.jpg", c: "veg",name:'Coriander', off:'25' },
+        { img: "/6.jpg", c: "veg",name:'Broccoli', off:'20' }
 
 
     ];
     const initialData2 = [
 
-        { img: "/2.jpg", c: "nonveg" },
-        { img: "/3.jpg", c: "cake & milk" },
-        { img: "/4.jpg", c: "cake & milk" },
-        { img: "/5.jpg", c: "vegt" },
-        { img: "/6.jpg", c: "vegt" },
-        { img: "/7.jpg", c: "fru" },
-        { img: "/8.jpg", c: "fru" },
-        { img: "/9.jpg", c: "nonveg" },
-        { img: "/10.jpg", c: "stoberi" },
-        { img: "/11.jpg", c: "stoberi" }
+        { img: "/2.jpg", c: "nonveg",name:'Fresh Meat', off:'20' },
+        { img: "/3.jpg", c: "cake & milk",name:'Cake', off:'30' },
+        { img: "/4.jpg", c: "cake & milk",name:'Milk', off:'10' },
+        { img: "/5.jpg", c: "vegt",name:'Coriander', off:'25' },
+        { img: "/6.jpg", c: "vegt", name:'Broccoli', off:'20' },
+        { img: "/7.jpg", c: "fru",name:'Apple' , off:'30'},
+        { img: "/8.jpg", c: "fru",name:'Mango' , off:'20'},
+        { img: "/9.jpg", c: "nonveg",name:'Fish Meat', off:'45' },
+        { img: "/10.jpg", c: "stoberi",name:'Strawberry', off:'22' },
+        { img: "/11.jpg", c: "stoberi",name:'Strawberry', off:'33' }
     ];
     const [all, setAll] = useState(initialData2)
     const [cardData, setCardData] = useState(initialData);
@@ -79,8 +79,26 @@ function Card() {
                     {/* Card Section */}
 
                     {cardData.map((val, index) => (
-                        <div key={index} className="col-12 col-sm-6 col-lg-4 card p-3">
+                        <div key={index} className="col-12 col-sm-6 col-lg-4 card-2 p-1 border border-dark">
+                            <div className="category-card">
                             <img className="card-img-one" src={val.img} alt="food" />
+                            <div className="button-container">
+                              <div className="button-container-cake">
+                                <p>{val.name}</p>
+                                </div>  
+                              <div className="button-container-buy "><button className="buy-btn">Shop now</button></div>
+                         </div>
+                         <div className="HoverDiv">
+                        
+                         
+                             </div>
+                         <div className="HoverDiv2">
+                         <h4>{val.off}</h4>
+                         <h5>% <br />
+                         OFF</h5>
+                         </div>
+                            </div>
+                           
                         </div>
                     ))}
 

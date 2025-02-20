@@ -3,6 +3,10 @@
     height: auto;
     border: none;
   }
+  .card-2{
+    height: 550px;
+    border: none;
+  }
   
   .card-button {
     width: 100%;
@@ -62,4 +66,117 @@
     /* border: 1px solid black;  */
     /* margin-top: -4px; */
   }
+ .category-card{
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  
+ }
+ /* .category-card:hover >.HoverDiv2{
+  width: 700px;
+  height: 890px;
+  transition: all 0.5s ease-in-out;
+  z-index: ;
+ } */
+ .button-container{
+  width: 100%;
+  height: 100px;
+  /* border: 1px solid rgb(14, 4, 4); */
+  transform: translate(0px,-130px);
+ z-index: -1;
+ }
+ .button-container-cake{
+  width: 100%;
+  height: 40%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2;
+
+  color: white;
+ }
+
+ .button-container-buy{
+  width: 100%;
+  height: 50%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+
+ }
+ .button-container-buy button{
+  width: 117px;
+  height: 40px;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  background-color: #64b496;
+  font-size: 14px;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1.2;
+  color: white;
+  border: 1px solid #64b496;
  
+ }
+ .buy-btn:hover{
+  color: white;
+  background-color: black;
+ }
+ .HoverDiv{
+width: 190px;
+height: 180px;
+/* border: 1px solid rgb(16, 15, 15);  */
+display: flex;
+align-items: center;
+justify-content: center;
+transform: translate(-10px,-680px);
+color: white;
+
+
+}
+
+.HoverDiv2  h4{
+  font-size: 65px; 
+  font-weight: 600;
+  width: 77px;
+  height: 85px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.HoverDiv2  h5{
+  font-size: 22px; 
+  font-weight: 600;
+  width: 77px;
+  height: 60px;
+  /* border: 1px solid black; */
+ margin-top: 15px;
+
+ 
+}
+.HoverDiv2{
+  width: 190px;
+  height: 180px;
+  /* border: 1px solid rgb(16, 15, 15);  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-20px,-850px);
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  color: white;
+  background-color:#2a2a2a6e;
+
+  }
