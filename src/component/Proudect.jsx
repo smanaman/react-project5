@@ -107,7 +107,7 @@ function Proudect() {
             <div className="container mt-4 border border-dark">
 
                 <div className="row d-flex justify-content-evenly">
-                    <div className="col-12 col-md-3 border border-dark populer-prodect-card populer-prodect-button-broup">
+                    <div className="col-12 col-md-3 border border-dark  populer-prodect-button-broup">
                         <div className="row">
                             <div className="col-12 border border-dark populer-prodect-button-broup d-flex flex-column justify-content-evenly">
                                 <button className='product-btn-grop' onClick={Allitem}>
@@ -133,7 +133,9 @@ function Proudect() {
 
 
                             </div>
-                            <div className="col-12 border border-dark populer-prodect-button-broup">aaaa</div>
+                            <div className="col-12 border border-dark populer-prodect-button-broup">
+aaa                            
+                            </div>
                         </div>
                     </div>
                     <div className="col-9  border border-dark p-0 ">

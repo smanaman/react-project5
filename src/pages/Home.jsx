@@ -1,6 +1,7 @@
 import Card from "../component/Card"
 import Nav from "../component/Nav"
 import Proudect from "../component/Proudect"
+import ProudectSlider from "../component/ProudectSlider"
 import Scroll from "../component/scroll"
 import './Home.css'
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
     <Scroll/>
     <Card/>
     <Proudect/>
+   <ProudectSlider/>
     </>
    ) 
 }
